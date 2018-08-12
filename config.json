@@ -1,0 +1,8 @@
+{
+    "accounts": [
+        "email:password"
+    ],
+    "useWebhook": false,
+    "webhookurl": "https://discordapp.com/api/webhooks/"
+}
+

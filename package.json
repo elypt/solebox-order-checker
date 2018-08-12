@@ -1,0 +1,26 @@
+{
+  "name": "solebox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev:watch": "tsc -w",
+    "build": "tsc -p tsconfig.json",
+    "postinstall": "npm run build",
+    "start": "node dist/solebox.js"
+  },
+  "author": "elypt",
+  "license": "ISC",
+  "dependencies": {
+    "1337": "^1.0.1",
+    "@types/node": "^10.1.1",
+    "@types/request-promise-native": "^1.0.14",
+    "nicknames": "^1.0.2",
+    "node-random-name": "^1.0.1",
+    "request": "^2.86.0",
+    "request-promise-native": "^1.0.5",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.8.3",
+    "typescript-map": "0.0.6"
+  }
+}
